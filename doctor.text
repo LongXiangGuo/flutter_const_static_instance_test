@@ -1,0 +1,34 @@
+[✓] Flutter (Channel stable, v1.9.1+hotfix.6, on Mac OS X 10.14.6 18G103, locale zh-Hans-CN)
+    • Flutter version 1.9.1+hotfix.6 at /Users/qxq4633/Desktop/development/flutter
+    • Framework revision 68587a0916 (3 months ago), 2019-09-13 19:46:58 -0700
+    • Engine revision b863200c37
+    • Dart version 2.5.0
+
+[!] Android toolchain - develop for Android devices (Android SDK version 28.0.3)
+    • Android SDK at /Users/qxq4633/Library/Android/sdk
+    • Android NDK location not configured (optional; useful for native profiling support)
+    • Platform android-29, build-tools 28.0.3
+    • ANDROID_HOME = /Users/qxq4633/Library/Android/sdk
+    • Java binary at: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_202-release-1483-b49-5587405)
+    ! Some Android licenses not accepted.  To resolve this, run: flutter doctor --android-licenses
+
+[✓] Xcode - develop for iOS and macOS (Xcode 10.1)
+    • Xcode at /Applications/Xcode101.app/Contents/Developer
+    • Xcode 10.1, Build version 10B61
+    • CocoaPods version 1.6.1
+
+[✓] Android Studio (version 3.5)
+    • Android Studio at /Applications/Android Studio.app/Contents
+    • Flutter plugin version 41.1.2
+    • Dart plugin version 191.8593
+    • Java version OpenJDK Runtime Environment (build 1.8.0_202-release-1483-b49-5587405)
+
+[✓] VS Code (version 1.40.2)
+    • VS Code at /Applications/Visual Studio Code.app/Contents
+    • Flutter extension version 3.7.1
+
+[✓] Connected device (1 available)
+    • iPhone XR • 49DFC3D9-587D-4B80-995F-99E7E7DAEFE8 • ios • com.apple.CoreSimulator.SimRuntime.iOS-12-1 (simulator)
+
+! Doctor found issues in 1 category.
