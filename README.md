@@ -1,14 +1,16 @@
 # flutter_const_static_instance_test
 
-A new Flutter package project.
+A simple package project test static const instance failured.
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+## Test with static const instance failured:
+![Snip20191213_14.png](./Snip20191213_14.png)
+## Test with static instance success:
+![Snip20191213_15](./Snip20191213_15)
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Detail info
+1. [doctor.text](./doctor.text)
+2. [coverage.text](./coverage.text)
+3. [flutter_test_verbose.text](./flutter_test_verbose.text)
+4. [coverage/html/index.html](./coverage/html/index.html)
