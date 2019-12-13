@@ -7,7 +7,7 @@ A simple package project test static const instance failured.
 ## Test with static const instance failured:
 ![Snip20191213_14.png](./Snip20191213_14.png)
 ## Test with static instance success:
-![Snip20191213_15](./Snip20191213_15)
+![Snip20191213_15.png](./Snip20191213_15.png)
 
 ## Detail info
 1. [doctor.text](./doctor.text)
