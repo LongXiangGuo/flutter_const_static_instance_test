@@ -10,7 +10,7 @@ class Calculator {
   final Offset anchor;
   final VoidCallback onTap;
 
-  static Calculator shared = Calculator(title: 'simple_caculator_for_test_const_instance');
+  static const Calculator shared = Calculator(title: 'simple_caculator_for_test_const_instance');
 
   const Calculator({
     this.title, 

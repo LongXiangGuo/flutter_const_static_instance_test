@@ -1,34 +1,34 @@
-[  +21 ms] executing: [/Users/qxq4633/Desktop/development/flutter/] git log -n 1 --pretty=format:%H
-[  +33 ms] Exit code 0 from: git log -n 1 --pretty=format:%H
+[  +20 ms] executing: [/Users/qxq4633/Desktop/development/flutter/] git log -n 1 --pretty=format:%H
+[  +35 ms] Exit code 0 from: git log -n 1 --pretty=format:%H
 [        ] 68587a0916366e9512a78df22c44163d041dd5f3
 [        ] executing: [/Users/qxq4633/Desktop/development/flutter/] git describe --match v*.*.* --first-parent --long --tags
-[  +16 ms] Exit code 0 from: git describe --match v*.*.* --first-parent --long --tags
+[  +15 ms] Exit code 0 from: git describe --match v*.*.* --first-parent --long --tags
 [        ] v1.9.1+hotfix.6-0-g68587a091
-[   +7 ms] executing: [/Users/qxq4633/Desktop/development/flutter/] git rev-parse --abbrev-ref --symbolic @{u}
+[   +6 ms] executing: [/Users/qxq4633/Desktop/development/flutter/] git rev-parse --abbrev-ref --symbolic @{u}
 [  +10 ms] Exit code 0 from: git rev-parse --abbrev-ref --symbolic @{u}
 [        ] origin/stable
 [        ] executing: [/Users/qxq4633/Desktop/development/flutter/] git ls-remote --get-url origin
-[   +9 ms] Exit code 0 from: git ls-remote --get-url origin
+[  +10 ms] Exit code 0 from: git ls-remote --get-url origin
 [        ] https://github.com/flutter/flutter.git
-[  +77 ms] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[  +71 ms] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
 [   +4 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
-[   +1 ms] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
 [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
 [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
 [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
 [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
-[  +73 ms] switching to directory LocalDirectory: 'test' to run tests
+[  +65 ms] switching to directory LocalDirectory: 'test' to run tests
 [   +1 ms] running test package with arguments: [--no-color, -r, compact, --concurrency=10, --, /Users/qxq4633/china_maps/flutter_const_static_instance_test/test/flutter_const_static_instance_test_test.dart]
 00:00 +0: loading /Users/qxq4633/china_maps/flutter_const_static_instance_test/test/flutter_const_static_instance_test_test.dart                                                                       [ +135 ms] test 0: starting test /Users/qxq4633/china_maps/flutter_const_static_instance_test/test/flutter_const_static_instance_test_test.dart
-[  +16 ms] test 0: starting shell process
-[   +3 ms] Stopping scan for flutter_test_config.dart; found project root at /Users/qxq4633/china_maps/flutter_const_static_instance_test
-[   +2 ms] Compiler will use the following file as its incremental dill file: /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_compiler.R6MKdT/output.dill
+[  +17 ms] test 0: starting shell process
+[   +6 ms] Stopping scan for flutter_test_config.dart; found project root at /Users/qxq4633/china_maps/flutter_const_static_instance_test
+[   +5 ms] Compiler will use the following file as its incremental dill file: /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_compiler.tjXFHN/output.dill
 [        ] Listening to compiler controller...
-[   +2 ms] Compiling /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_listener.U8Cvfv/listener.dart
-[  +11 ms] /Users/qxq4633/Desktop/development/flutter/bin/cache/dart-sdk/bin/dart /Users/qxq4633/Desktop/development/flutter/bin/cache/artifacts/engine/darwin-x64/frontend_server.dart.snapshot --sdk-root /Users/qxq4633/Desktop/development/flutter/bin/cache/artifacts/engine/common/flutter_patched_sdk/ --incremental --strong --target=flutter --output-dill /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_compiler.R6MKdT/output.dill --packages /Users/qxq4633/china_maps/flutter_const_static_instance_test/.packages --initialize-from-dill /Users/qxq4633/china_maps/flutter_const_static_instance_test/build/testfile.dill
-[  +11 ms] <- compile /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_listener.U8Cvfv/listener.dart
-[  +93 ms] -> result 4aa2e6e5-b066-445e-9ea9-9e8ebdd94e11
-00:01 +0: loading /Users/qxq4633/china_maps/flutter_const_static_instance_test/test/flutter_const_static_instance_test_test.dart                                                                       [+1540 ms] -> 4aa2e6e5-b066-445e-9ea9-9e8ebdd94e11
+[   +2 ms] Compiling /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_listener.ZBmFEy/listener.dart
+[  +13 ms] /Users/qxq4633/Desktop/development/flutter/bin/cache/dart-sdk/bin/dart /Users/qxq4633/Desktop/development/flutter/bin/cache/artifacts/engine/darwin-x64/frontend_server.dart.snapshot --sdk-root /Users/qxq4633/Desktop/development/flutter/bin/cache/artifacts/engine/common/flutter_patched_sdk/ --incremental --strong --target=flutter --output-dill /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_compiler.tjXFHN/output.dill --packages /Users/qxq4633/china_maps/flutter_const_static_instance_test/.packages --initialize-from-dill /Users/qxq4633/china_maps/flutter_const_static_instance_test/build/testfile.dill
+[  +12 ms] <- compile /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_listener.ZBmFEy/listener.dart
+[  +92 ms] -> result 305502c6-d496-495a-bd83-b1731732fe69
+00:01 +0: loading /Users/qxq4633/china_maps/flutter_const_static_instance_test/test/flutter_const_static_instance_test_test.dart                                                                       [+1287 ms] -> 305502c6-d496-495a-bd83-b1731732fe69
 [        ] -> +file:///Users/qxq4633/.pub-cache/hosted/pub.flutter-io.cn/async-2.3.0/lib/async.dart
 [        ] -> +file:///Users/qxq4633/.pub-cache/hosted/pub.flutter-io.cn/async-2.3.0/lib/src/async_cache.dart
 [        ] -> +file:///Users/qxq4633/.pub-cache/hosted/pub.flutter-io.cn/async-2.3.0/lib/src/async_memoizer.dart
@@ -352,7 +352,7 @@
 [        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/gestures/multidrag.dart
 [        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/gestures/multitap.dart
 [        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/gestures/pointer_router.dart
-[   +1 ms] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/gestures/pointer_signal_resolver.dart
+[        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/gestures/pointer_signal_resolver.dart
 [        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/gestures/recognizer.dart
 [        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/gestures/scale.dart
 [        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/gestures/tap.dart
@@ -361,7 +361,7 @@
 [        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/material/about.dart
 [        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/material/animated_icons.dart
 [        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/material/animated_icons/animated_icons.dart
-[   +3 ms] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/material/animated_icons/animated_icons_data.dart
+[   +4 ms] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/material/animated_icons/animated_icons_data.dart
 [        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/material/animated_icons/data/add_event.g.dart
 [        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/material/animated_icons/data/arrow_menu.g.dart
 [        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/material/animated_icons/data/close_menu.g.dart
@@ -490,7 +490,7 @@
 [        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/painting/beveled_rectangle_border.dart
 [        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/painting/binding.dart
 [        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/painting/border_radius.dart
-[        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/painting/borders.dart
+[   +1 ms] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/painting/borders.dart
 [        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/painting/box_border.dart
 [        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/painting/box_decoration.dart
 [        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter/lib/src/painting/box_fit.dart
@@ -722,24 +722,24 @@
 [        ] -> +file:///Users/qxq4633/Desktop/development/flutter/packages/flutter_test/lib/src/window.dart
 [        ] -> +file:///Users/qxq4633/china_maps/flutter_const_static_instance_test/lib/flutter_const_static_instance_test.dart
 [        ] -> +file:///Users/qxq4633/china_maps/flutter_const_static_instance_test/test/flutter_const_static_instance_test_test.dart
-[        ] -> +file:///var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_listener.U8Cvfv/listener.dart
-[        ] -> 4aa2e6e5-b066-445e-9ea9-9e8ebdd94e11 /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_compiler.R6MKdT/output.dill 0
-[  +51 ms] <- accept
+[        ] -> +file:///var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_listener.ZBmFEy/listener.dart
+[        ] -> 305502c6-d496-495a-bd83-b1731732fe69 /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_compiler.tjXFHN/output.dill 0
+[  +36 ms] <- accept
 [        ] <- reset
-[        ] Compiling /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_listener.U8Cvfv/listener.dart took 1807ms
-[   +1 ms] /Users/qxq4633/Desktop/development/flutter/bin/cache/artifacts/engine/darwin-x64/flutter_tester --disable-observatory --enable-checked-mode --verify-entry-points --enable-software-rendering --skia-deterministic-rendering --enable-dart-profiling --non-interactive --use-test-fonts --packages=/Users/qxq4633/china_maps/flutter_const_static_instance_test/.packages /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_listener.U8Cvfv/listener.dart.dill
-[   +1 ms] Using this directory for fonts configuration: /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_fonts.D9OJDz
-[   +6 ms] test 0: awaiting initial result for pid 66316
-00:02 +0: loading /Users/qxq4633/china_maps/flutter_const_static_instance_test/test/flutter_const_static_instance_test_test.dart                                                                       [ +483 ms] test 0: process with pid 66316 connected to test harness
-[        ] test 0: awaiting test result for pid 66316
-00:02 +0: adds one to input values                                                                                                                                                                     00:02 +1: adds one to input values                                                                                                                                                                     00:02 +1: const static instance                                                                                                                                                                        00:02 +2: const static instance                                                                                                                                                                        [ +121 ms] test 0: process with pid 66316 no longer needed by test harness
+[        ] Compiling /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_listener.ZBmFEy/listener.dart took 1516ms
+[   +1 ms] /Users/qxq4633/Desktop/development/flutter/bin/cache/artifacts/engine/darwin-x64/flutter_tester --disable-observatory --enable-checked-mode --verify-entry-points --enable-software-rendering --skia-deterministic-rendering --enable-dart-profiling --non-interactive --use-test-fonts --packages=/Users/qxq4633/china_maps/flutter_const_static_instance_test/.packages /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_listener.ZBmFEy/listener.dart.dill
+[   +1 ms] Using this directory for fonts configuration: /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_fonts.c7CDVG
+[   +6 ms] test 0: awaiting initial result for pid 68035
+[ +314 ms] test 0: process with pid 68035 connected to test harness
+[        ] test 0: awaiting test result for pid 68035
+00:01 +0: adds one to input values                                                                                                                                                                     00:01 +1: adds one to input values                                                                                                                                                                     00:01 +1: const static instance                                                                                                                                                                        00:01 +2: const static instance                                                                                                                                                                        [  +96 ms] test 0: process with pid 68035 no longer needed by test harness
 [        ] test 0: cleaning up...
-[   +1 ms] test 0: ensuring end-of-process for shell
-[   +8 ms] test 0: deleting temporary directory
+[        ] test 0: ensuring end-of-process for shell
+00:02 +2: const static instance                                                                                                                                                                        [   +7 ms] test 0: deleting temporary directory
 [   +2 ms] test 0: shutting down test harness socket server
 [   +2 ms] test 0: finished
 00:02 +2: All tests passed!                                                                                                                                                                            
-[  +12 ms] Deleting /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_compiler.R6MKdT...
-[   +2 ms] killing pid 66303
-[  +42 ms] Deleting /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_fonts.D9OJDz...
-[   +7 ms] test package returned with exit code 0
+[  +10 ms] Deleting /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_compiler.tjXFHN...
+[   +2 ms] killing pid 68021
+[  +28 ms] Deleting /var/folders/5z/975lf4rx0cv8s2hvl_383mdmqx4wpd/T/flutter_test_fonts.c7CDVG...
+[   +4 ms] test package returned with exit code 0
